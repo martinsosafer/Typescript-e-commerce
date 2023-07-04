@@ -62,7 +62,7 @@ export function ProductInfo({ product }: Props) {
 
       <div className="mt-4">
         <p>
-          Size: <strong>{getSizeName(product.sizes[0])}</strong>
+          Size: <strong>{getSizeName(selectedSize)}</strong>
         </p>
         {product.sizes.map((size) => (
           <Button
